@@ -52,7 +52,7 @@ function App() {
         menuIsOpen={menuIsOpen}
       />
       <main className="lg:mb-12 lg:flex lg:justify-between">
-        <Headline isMobile={isMobile} />
+        <Headline />
         <Sidebar />
       </main>
       <ArticleList />

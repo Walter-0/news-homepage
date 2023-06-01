@@ -1,10 +1,6 @@
 import React from "react";
 
-interface HeadlineProps {
-  isMobile: boolean;
-}
-
-const Headline: React.FC<HeadlineProps> = ({ isMobile }) => {
+const Headline: React.FC = () => {
   return (
     <div>
       <picture>
